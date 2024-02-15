@@ -446,121 +446,6 @@ video {
   display: none;
 }
 
-body {
-  min-height: 100vh;
-  font-family: 'League Spartan', sans-serif;
-  background-image: url(../assets/background.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.job{
-  position: relative;
-  border-radius: 0.5rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  padding: 1rem;
-}
-
-@media (min-width: 768px){
-  .job{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-
-.logo{
-  position: absolute;
-  top: -1.75rem;
-  width: 3.5rem;
-}
-
-@media (min-width: 768px){
-  .logo{
-    left: 1.75rem;
-    top: 2.75rem;
-    width: 4rem;
-  }
-}
-
-.company{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.position{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.detail{
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.skills{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.filter{
-  display: flex;
-  overflow: hidden;
-  border-radius: 0.125rem;
-}
-
-.filter-text{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
-  padding-top: 0.25rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.remove-btn{
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 300ms;
-}
-
-.remove-btn:hover{
-  opacity: 0.8;
-}
-
-.filter-btn{
-  border-radius: 0.125rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 300ms;
-}
-
-.filter-btn:hover{
-  opacity: 0.8;
-}
-
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -661,66 +546,19 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
-.mx-auto{
-  margin-left: auto;
-  margin-right: auto;
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-.my-16{
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+.underline{
+  text-decoration-line: underline;
 }
 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.flex{
-  display: flex;
-}
-
-.hidden{
-  display: none;
-}
-
-.max-w-\[85\%\]{
-  max-width: 85%;
-}
-
-.flex-wrap{
-  flex-wrap: wrap;
-}
-
-.gap-4{
-  gap: 1rem;
-}
-
-.space-y-12 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
-}
-
-.rounded-md{
-  border-radius: 0.375rem;
-}
-
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.p-4{
-  padding: 1rem;
-}
-
-.filter{
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-@media (min-width: 1024px){
-  .lg\:ml-24{
-    margin-left: 6rem;
-  }
+body {
+  min-height: 100vh;
+  font-family: 'League Spartan', sans-serif;
+  background-image: url(../assets/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,0 +1,8 @@
+tabs: ["src/index.html", "src/input.css", "src/script.js"]
+terminals:
+  [
+    "bun install && bun run dev",
+    "static-server -p 1337 --no-cache",
+  ]
+run-button: bun run dev
+live-reload-browser: true
