@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    min-height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+    background-image: url(../assets/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .job {
+    @apply md:flex md:justify-between md:items-center relative p-4 bg-white rounded-lg;
+  }
+
+  .logo {
+    @apply absolute w-14 -top-7 md:left-7 md:w-16 md:top-11;
+  }
+
+  .company {
+    @apply text-blue-600 text-lg;
+  }
+
+  .position {
+    @apply text-xl;
+  }
+
+  .detail {
+    @apply flex items-center gap-3;
+  }
+
+  .skills {
+    @apply flex flex-wrap gap-4;
+  }
+
+  .filter {
+    @apply flex overflow-hidden rounded-sm;
+  }
+
+  .filter-text {
+    @apply bg-black text-white px-2.5 pt-1;
+  }
+
+  .remove-btn {
+    @apply px-2 transition duration-300 bg-red-600 hover:opacity-80;
+  }
+
+  .filter-btn {
+    @apply px-2.5 py-1 rounded-sm bg-black text-white transition duration-300 hover:opacity-80;
+  }
+}
