@@ -11,3 +11,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.filter {
+  @apply flex overflow-hidden rounded-md;
+}
+
+.filter-text {
+  @apply bg-black text-white px-2.5 pt-1;
+}
+
+.remove-btn {
+  @apply px-2 transition duration-300 bg-red-600 hover:opacity-80;
+}
