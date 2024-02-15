@@ -8,9 +8,21 @@
   body {
     min-height: 100vh;
     font-family: 'League Spartan', sans-serif;
-    background-image: url(../assets/background.svg);
+    background-image: url(./assets/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .filter {
+    @apply flex overflow-hidden rounded-sm;
+  }
+
+  .filter-text {
+    @apply bg-black text-white px-2.5 pt-1;
+  }
+
+  .remove-btn {
+    @apply px-2 transition duration-300 bg-red-600 hover:opacity-80;
   }
 
   .job {
@@ -35,18 +47,6 @@
 
   .skills {
     @apply flex flex-wrap gap-4;
-  }
-
-  .filter {
-    @apply flex overflow-hidden rounded-sm;
-  }
-
-  .filter-text {
-    @apply bg-black text-white px-2.5 pt-1;
-  }
-
-  .remove-btn {
-    @apply px-2 transition duration-300 bg-red-600 hover:opacity-80;
   }
 
   .filter-btn {

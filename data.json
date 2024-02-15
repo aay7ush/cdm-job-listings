@@ -2,7 +2,7 @@
   {
     "id": 1,
     "company": "Google",
-    "logo": "../assets/google.svg",
+    "logo": "./assets/google.svg",
     "position": "Senior Frontend Developer",
     "postedAt": "1d ago",
     "contract": "Full Time",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "company": "Microsoft",
-    "logo": "../assets/microsoft.svg",
+    "logo": "./assets/microsoft.svg",
     "position": "Fullstack Developer",
     "postedAt": "1d ago",
     "contract": "Part Time",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "company": "Uber",
-    "logo": "../assets/uber.svg",
+    "logo": "./assets/uber.svg",
     "position": "Junior Frontend Developer",
     "postedAt": "2d ago",
     "contract": "Part Time",
@@ -32,7 +32,7 @@
   {
     "id": 5,
     "company": "Netflix",
-    "logo": "../assets/netflix.svg",
+    "logo": "./assets/netflix.svg",
     "position": "Software Engineer",
     "postedAt": "1w ago",
     "contract": "Full Time",
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "company": "Amazon",
-    "logo": "../assets/amazon.svg",
+    "logo": "./assets/amazon.svg",
     "position": "Junior Backend Developer",
     "postedAt": "2w ago",
     "contract": "Full Time",
@@ -52,7 +52,7 @@
   {
     "id": 7,
     "company": "Apple",
-    "logo": "../assets/apple.svg",
+    "logo": "./assets/apple.svg",
     "position": "Junior Fullstack Developer",
     "postedAt": "2w ago",
     "contract": "Full Time",
@@ -62,7 +62,7 @@
   {
     "id": 8,
     "company": "Tesla",
-    "logo": "../assets/tesla.svg",
+    "logo": "./assets/tesla.svg",
     "position": "Junior Frontend Developer",
     "postedAt": "2w ago",
     "contract": "Full Time",
@@ -72,7 +72,7 @@
   {
     "id": 9,
     "company": "WhatsApp",
-    "logo": "../assets/whatsapp.svg",
+    "logo": "./assets/whatsapp.svg",
     "position": "Full Stack Engineer",
     "postedAt": "3w ago",
     "contract": "Full Time",
@@ -82,7 +82,7 @@
   {
     "id": 10,
     "company": "Twitter",
-    "logo": "../assets/twitter.svg",
+    "logo": "./assets/twitter.svg",
     "position": "Frontend Developer",
     "postedAt": "1mo ago",
     "contract": "Part Time",
