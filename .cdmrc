@@ -1,4 +1,4 @@
-tabs: ["src/index.html", "src/input.css", "src/script.js"]
+tabs: ["index.html", "input.css", "script.js"]
 terminals:
   [
     "bun install && bun run dev",
